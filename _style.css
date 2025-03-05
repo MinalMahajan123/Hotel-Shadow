@@ -1,0 +1,264 @@
+*{
+ padding: 0;
+  
+}
+body {
+  background-color: rgb(16, 16, 61);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  background-color: aquamarine;
+  color: rgb(16, 16, 61);
+  font-size: 200%;
+  font-family: arial;
+  text-align: center;
+  margin-bottom: 2%;
+}
+nav{
+  background-color: white;
+  height: 50%;
+  list-style: none;
+  margin-bottom:1% ;
+  border-radius: 4px;
+}
+.navEle{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul{
+  display: flex;
+}
+li{
+  margin-left: 10%;
+}
+li a {
+ 
+  float: left;
+  font-family: arial;
+  
+  border: 1px solid transparent;
+  color: rgb(16, 16, 61);
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
+}
+.icon {
+  padding: 1%;
+  display:flex;
+}
+
+input {
+  border-radius: 8px;
+  padding:2%;
+  width: 80%;
+}
+
+button {
+  width:7%;
+  height: 30px;
+  float: right;
+  background-color: rgb(224, 154, 50);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  font-family: Arial;
+  font-size: 80%;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+button:hover {
+  border-color: black;
+  background-color: rgba(231, 129, 57, 0.941);
+}
+
+th img {
+ 
+  border: 2px solid transparent;
+  width: 100%;
+}
+th img:hover {
+  border-color: white;
+}
+.image {
+    display: flex;
+  justify-content: space-evenly;
+}
+
+.Text {
+  font-family: arial;
+  text-align: center;
+  font-size: 180%;
+}
+
+.priceChart {
+  margin-bottom: 1%;
+  margin-left: 6%;
+  margin-right: 6%;
+  background-color: rgb(239, 237, 230);
+  color: black;
+  border: 2px solid rgb(18, 18, 18);
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.priceChart tr th {
+  font-size: 90%;
+  padding: 2%;
+}
+.priceChart tr td {
+  font-size: 90%;
+
+  margin-right: 2%;
+  padding: 2%;
+}
+.history {
+  background-color: #e1e0e0;
+  color: rgb(11, 11, 11);
+  font-family: Arial;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+.history h2 {
+    text-decoration: none;
+   
+  font-size: 230%;
+  margin-left: 4%;
+}
+
+.history h3 {
+  color: black;
+  text-decoration: none;
+  font-size: 100%;
+  margin-left: 300px;
+}
+
+.history h2:hover {
+  color: blue;
+  font-size: 2px;
+}
+
+.icons1 {
+  margin-top: 1%;
+  align-items: center;
+  margin-bottom: 1%;
+  text-decoration: none;
+  background-color: #e1e0e0;
+  font-size: 150%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.icons1 h2 {
+  display: block;
+  color: black;
+}
+.icons1 a {
+  color: rgb(18, 17, 17);
+  margin-left: 1%;
+}
+.icons1 a:hover {
+  color: rgb(10, 52, 238);
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav .navEle {
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    section {
+        padding: 1em;
+    }
+}
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 0.5em;
+    }
+    
+    header nav ul li {
+        margin-bottom: 5px;
+    }
+    
+    section {
+        padding: 0.5em;
+    }
+}
+@media only screen and(max-width:489px){
+  header .heading h1{
+    background-color: black;
+    font-size: 120%;
+    
+  }
+  .navEle ul li{
+    margin-left: 0%;
+  }
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .priceChart{
+        padding: auto;
+        margin-right:0 ;
+        margin-bottom: 10px;
+    }
+    
+    section {
+        padding: 1em;
+    }
+}
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 0.2em;
+    }
+    
+    header nav ul li {
+        margin-bottom: 2px;
+    }
+    
+    section {
+        padding: 0.2em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    header {
+        padding: 0.1em;
+    }
+    
+    header nav .navEle{
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    section {
+        padding: 0.1em;
+}
+} */
